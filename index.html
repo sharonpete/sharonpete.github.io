@@ -3,12 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <title>Activity 1: Basic HTML Bio</title>
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"-->
+  <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
-<img src="horse_headshot.jpeg"bio pict">
-<p>Lorem Ipsum er rett og slett dummytekst fra og for trykkeindustrien. Lorem Ipsum har vært bransjens standard for dummytekst helt siden 1500-tallet, da en ukjent boktrykker stokket en mengde bokstaver for å lage et prøveeksemplar av en bok. Lorem Ipsum har tålt tidens tann usedvanlig godt, og har i tillegg til å bestå gjennom fem århundrer også tålt spranget over til elektronisk typografi uten vesentlige endringer. Lorem Ipsum ble gjort allment kjent i 1960-årene ved lanseringen av Letraset-ark med avsnitt fra Lorem Ipsum, og senere med sideombrekkingsprogrammet Aldus PageMaker som tok i bruk nettopp Lorem Ipsum for dummytekst.</p>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand font-comp" href="#">BootCamp Bio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link font-comp" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle  font-comp" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Areas of Interest
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            
+            <a class="dropdown-item font-comp" href="#">Data Visualization</a>
+            <a class="dropdown-item font-comp" href="#">Data Analytics</a>
+            <a class="dropdown-item font-comp" href="#">SKI!!</a>
+            <a class="dropdown-item font-comp" href="#">Dressage</a>
+                           
+          </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link active font-comp" href="#">Other Things</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link  font-comp" href="#">Blog</a>
+        </li>
+      </ul>
+      
+    </div>
+</nav>
+<div class="container">
+  <div class="jumbotron">
+      <h1 class="display-4 font-comp">Bio Page: Sharon T.</h1>
+      <p class="lead font-comp">Data Science, Product Agility Coach, Software Engineer, Skier, Dressage Rider</p>
+      <hr class="my-4">
+
+      <div class="row">
+          <div class="col-sm-12 col-md-6">           
+          <figure class="thumbnail">
+              <article>
+                  <a target="_blank" href="#">
+                  <img src="Sharon_WinterPark2.jpg" alt="Sharon at Winter Park" width="108" height="192">
+                  </a>
+                  
+                  </article>
+          </figure>
+          </div>
+          <div class="col-sm-12 col-md-6"> 
+              <p class="lead font-comp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi semper vitae augue non mollis. Cras non ex sem. Duis vel tincidunt risus. Suspendisse lorem ligula, tincidunt quis molestie et, blandit ut justo. Sed pulvinar hendrerit interdum. Donec sollicitudin at massa pharetra rhoncus. Nulla aliquam arcu semper tellus suscipit fermentum. Aliquam auctor odio sit amet nisi gravida, nec accumsan nisl viverra. Donec ullamcorper, mi non posuere dictum, leo enim tincidunt tellus, et pretium massa felis in est. Nunc ac venenatis odio, eget vestibulum ante. </p>
+              <p class="lead font-comp">Curabitur consectetur leo sit amet felis volutpat fringilla id vitae metus. Fusce ligula leo, pellentesque at neque nec, vehicula imperdiet diam. Nullam eget viverra metus. Vivamus mattis viverra nunc et ullamcorper. Nunc vitae dignissim odio. Etiam dignissim placerat posuere. Vivamus non velit risus.  </p>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+<footer class="page-footer font-small darkslateblue pt-4">
+  <div class="font-comp text-center py-3">BootCamp GitHub Page for Sharon T.
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>      
 </body>
 
 </html>
